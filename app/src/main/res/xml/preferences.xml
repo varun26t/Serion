@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBoxPreference
+        android:textColor="@color/whiteText"
+        android:title="@string/menu_refresh"
+        android:defaultValue="false"
+        android:key="datasetRefresh"
+        android:summary="@string/refresh_summary"/>
+
+    <CheckBoxPreference
+        android:textColor="@color/whiteText"
+        android:title="@string/stats"
+        android:defaultValue="false"
+        android:key="sendStats"
+        android:summary="@string/stats_summary"/>
+
+    <SwitchPreference
+        android:textColor="@color/whiteText"
+        android:title="Random"
+        android:defaultValue="false"
+        android:key="testSwitch"
+        android:summary="Testing Switch Pref"/>
+
+</PreferenceScreen>
